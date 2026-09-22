@@ -28,6 +28,8 @@ requirements:
     - tensorflow >=2.10
     - tensorflow-probability >=0.18,<=0.25
     - matplotlib-base
+    # tensorflow-probaility[tf]
+    - tf-keras >=2.10
 
 test:
   imports:
