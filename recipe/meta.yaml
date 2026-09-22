@@ -1,13 +1,13 @@
 {% set name = "tfcausalimpact" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tfcausalimpact-{{ version }}.tar.gz
-  sha256: 0e362965082377a3518f56b555ede56e4fedefd3f44fd03cd40946470ff75375
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/tfcausalimpact-{{ version }}.tar.gz
+  sha256: a6131cd519a8108c1b71274e12619a184a15a7223035914d8a1e0af349276b53
 
 build:
   noarch: python
